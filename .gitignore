@@ -1,4 +1,7 @@
 .gradle
 .idea
 /build/
+/out/
 /classes/
+/src/main/resources/directory.csv
+
