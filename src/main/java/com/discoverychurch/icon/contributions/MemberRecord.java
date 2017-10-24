@@ -1,0 +1,42 @@
+package com.discoverychurch.icon.contributions;
+
+//SELECT `MemberInfoT`.`MemberID`,
+    `MemberInfoT`.`Do Not Print Statement?`,
+            `MemberInfoT`.`Title`,
+            `MemberInfoT`.`FirstNameH`,
+            `MemberInfoT`.`FirstNameW`,
+            `MemberInfoT`.`MailingFirstName`,
+            `MemberInfoT`.`LastName`,
+            `MemberInfoT`.`FirstLetterLastName`,
+            `MemberInfoT`.`Children`,
+            `MemberInfoT`.`Address`,
+            `MemberInfoT`.`City`,
+            `MemberInfoT`.`State`,
+            `MemberInfoT`.`Zip`,
+            `MemberInfoT`.`HomePhone`,
+            `MemberInfoT`.`OnOfferingReport`,
+            `MemberInfoT`.`OnPreSchoolReport`,
+            `MemberInfoT`.`CellPhoneH`,
+            `MemberInfoT`.`CellPhoneW`,
+            `MemberInfoT`.`WorkPhone`,
+            `MemberInfoT`.`EmailH`,
+            `MemberInfoT`.`EmailW`,
+            `MemberInfoT`.`MaritalStatus`,
+            `MemberInfoT`.`ChildrensBirthdays`,
+            `MemberInfoT`.`Pledge2010`,
+            `MemberInfoT`.`PledgeTimeUnit`,
+            `MemberInfoT`.`Pledge2010Yr`,
+            `MemberInfoT`.`PledgeCurrentYear?`,
+            `MemberInfoT`.`In Directory?`,
+            `MemberInfoT`.`NotInDirectory`,
+            `MemberInfoT`.`BirthdateH`,
+            `MemberInfoT`.`BirthdateW`,
+            `MemberInfoT`.`Anniversary`,
+            `MemberInfoT`.`Notes`,
+            `MemberInfoT`.`Member?`,
+            `MemberInfoT`.`Paper Directory?`,
+            `MemberInfoT`.`Electronic Directory?`
+            FROM `migration`.`MemberInfoT`;
+
+public class MemberRecord {
+}

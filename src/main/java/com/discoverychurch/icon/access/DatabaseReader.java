@@ -8,11 +8,13 @@ import com.healthmarketscience.jackcess.Table;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Properties;
 import java.util.Set;
 
 public class DatabaseReader {
     private String dbFileName;
     private Database database;
+
 
     public DatabaseReader(String dbFileName) throws IOException {
         this.dbFileName = dbFileName;

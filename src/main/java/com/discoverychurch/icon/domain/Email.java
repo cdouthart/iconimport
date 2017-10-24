@@ -1,9 +1,11 @@
 package com.discoverychurch.icon.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.boon.json.annotations.JsonProperty;
 
 @Data
+@AllArgsConstructor
 public class Email {
     String id;
     String email;

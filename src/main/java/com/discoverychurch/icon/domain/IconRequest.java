@@ -1,12 +1,14 @@
 package com.discoverychurch.icon.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-import org.boon.json.annotations.JsonProperty;
 
 @Getter @Setter @Builder
 public class IconRequest<T> {
+    @JsonProperty("DataFormat")
+    private String dataFormat = "JSON";
 
     @JsonProperty("Module")
     private String module;
@@ -17,8 +19,12 @@ public class IconRequest<T> {
     @JsonProperty("Action")
     private String action;
 
+    @JsonProperty("Filters")
+    private Object filters;
+
     @JsonProperty("Data")
     private T data;
+
 
 
 }

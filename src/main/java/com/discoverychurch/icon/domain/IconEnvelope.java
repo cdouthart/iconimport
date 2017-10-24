@@ -1,7 +1,7 @@
 package com.discoverychurch.icon.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
-import org.boon.json.annotations.JsonProperty;
 
 @Builder
 public class IconEnvelope {

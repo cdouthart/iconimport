@@ -1,0 +1,10 @@
+icon:
+    username: icon-user
+    password: icon-pass
+    phone: icon-phone
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/migration
+        username: root
+        password: discovery

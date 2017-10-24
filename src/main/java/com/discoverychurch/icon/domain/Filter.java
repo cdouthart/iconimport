@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Date {
-    String id;
-    String date;
+public class Filter {
+    int startAt;
+    int limit;
 }

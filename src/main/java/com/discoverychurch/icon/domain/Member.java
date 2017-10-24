@@ -1,7 +1,9 @@
 package com.discoverychurch.icon.domain;
 
-import org.boon.json.annotations.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
 
+@Data
 public class Member {
     @JsonProperty("household_id")
     String householdId;
@@ -20,5 +22,9 @@ public class Member {
     Date[] specialDates;
 
     Phone[] phones;
+
+    Email[] emails;
+
+    boolean primary;
 
 }

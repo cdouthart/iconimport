@@ -5,7 +5,6 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Date {
-    String id;
-    String date;
+public class SimpleId<T> {
+    private T id;
 }

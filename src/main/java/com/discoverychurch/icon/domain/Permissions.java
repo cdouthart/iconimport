@@ -5,7 +5,11 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Date {
-    String id;
-    String date;
+public class Permissions {
+    boolean create;
+    boolean read;
+    boolean update;
+    boolean delete;
 }
+
+
